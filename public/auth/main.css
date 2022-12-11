@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("/image/wallpaper.png") center no-repeat;
+    background-size: cover;
+}
+
+.card {
+    overflow: hidden;
+    border-radius: 10px;
+    min-height: 500px;
+}
+
+.img-left {
+    width: 45%;
+    background: url("/image/logo.png") center;
+    background-size: cover;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+input[type="email"],
+input[type="password"],input[type="text"] {
+    border-radius: 100px;
+    border: none;
+    background: #e3f2fd;
+}
+input[type="button"] {
+    border-radius: 100px;
+}

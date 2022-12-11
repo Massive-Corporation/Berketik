@@ -1,0 +1,6 @@
+body {
+    background: url("/image/wallpaper_frontend.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
