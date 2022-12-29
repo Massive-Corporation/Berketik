@@ -19,6 +19,9 @@ Route::get('/', function () {
 Route::get('/one-piece',function () {
     return view('frontend.single-page');
 });
+Route::get('/user',function () {
+    return view('frontend.user');
+});
 
 Auth::routes();
 
